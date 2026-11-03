@@ -1,0 +1,41 @@
+[
+    {
+        "Name": "Hydrogen",
+        "Symbol": "H",
+        "Number": "1",
+        "Type": "NMTL"
+    }, 
+    {
+        "Name": "Helium",
+        "Symbol": "He",
+        "Number": "2",
+        "Type": "NBLGAS"
+    }, 
+    {
+        "Name": "Lithium",
+        "Symbol": "Li",
+        "Number": "3",
+        "Type": "ALKMTL"
+    },
+    {
+        "Name": "Beryllium",
+        "Symbol": "Be",
+        "Number": "4",
+        "Type": "ALKEMTL"
+    }, 
+    {
+        "Name": "Boron",
+        "Symbol": "B",
+        "Number": "5",
+        "Type": "MTLOID"
+    }, 
+    {
+        "Name": "Carbon", 
+        "Symbol": "C",
+        "Number": "6", 
+        "Type": "NMTL"
+    },
+    {
+        
+    }
+]

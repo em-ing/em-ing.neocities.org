@@ -1,0 +1,28 @@
+
+.container {
+    color: #20151f;
+    font-weight: bold;
+    font-family: sans-serif;
+
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.text {
+	font-size: 18px;
+}
+
+.pfp {
+    width: 110px; 
+    height: 110px; 
+    border-radius: 100px;
+    margin-left: 1vw;
+    margin-top: 1vh;	
+}
+			
+.transfem {
+    background: #74DEFF;
+    background: linear-gradient(to right, #5db4ce 0%, #767676 50%, #FF8CBF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

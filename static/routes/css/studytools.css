@@ -1,0 +1,49 @@
+
+.container {
+    color: #20151f;
+    font-weight: bold;
+    font-family: sans-serif;
+
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.flashCardSets {
+    border: 3px dotted black;
+    width: 30%;
+    height: 80%;
+    position: relative;
+}
+
+.title {
+    font-size: 2rem;
+    margin-left: calc(25% - 2rem);
+    color: #744b72;
+
+}
+
+.flashCardSets a {
+    position: absolute;
+    font-size: 1.1rem;
+    color: #744b72;
+    text-decoration: none;
+    width: 100%;
+}
+
+.flashCardSets a:hover {
+    background-color: #cdcdcd;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.bigdot {
+    font-weight: bold;
+    color: black;
+
+    font-size: 30px;
+
+    margin-left: 20px;
+
+}

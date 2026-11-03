@@ -1,0 +1,130 @@
+:root {
+    --text-color: #744b72;
+}
+
+@font-face {
+    font-family: Ithaca;
+    src: url("/assets/Ithaca.ttf");
+}
+
+
+html, body {
+	background-color: #ffcffd;
+	padding: 0;
+	border: none; 
+	margin: 0;
+	width: 100%;
+	height: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#name {
+    /*yeah so i know theres a proper way to center text but this appeals to my brainworms more*/
+    margin-top: calc((10vh - 4rem) / 2);
+    font-size: 4rem;
+    color: #FF8CBF;
+    font-weight: Bold;
+    -webkit-text-stroke: 3px black;
+    font-family: Ithaca, sans-serif;
+}
+
+#mainframe {
+    width: 100%;
+    height: 100%;
+    border: none; 
+    margin: 0;
+}
+
+#content {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+#main {
+    background-color: #ddaadc;
+    width: 80vw; 
+    height: 90vh;
+    position: absolute;
+    bottom: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#sidebar {
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    left: 0;
+    background-color: #deb3dd;
+    border-top-left-radius: 20px;
+}
+@media (max-width: 1000px) {
+    #main {
+        width: 100dvw;
+        height: 90dvh;
+
+    }
+}
+
+#sidebarTitle {
+    font-size: 46px;
+    /* this is what happens when you cant use variables when you do math. help me :3*/
+    margin-left: calc( ((80vw / 5 ) / 2) - 3rem );
+    font-family: Ithaca, sans-serif;
+    color: #FF8CBF;
+    font-weight: bold;
+    -webkit-text-stroke: 2px black; 
+}
+
+.navLink {
+    font-size: 1.1rem;
+
+    color: #744b72;
+    font-weight: bold;
+
+    /* dont ask */
+    border-top: 2px solid black;
+
+    margin-bottom: 0;
+    margin-top: 0;
+
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+    width: 100%;
+}
+.lastLink {
+    border-bottom: 2px solid black;
+}
+.navLink:hover {
+background-color: #cdcdcd;
+
+}
+
+.navLink a {
+    display: flex;
+    flex-direction: row;
+    color: #744b72;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 2px;
+    width: 100%;
+    font-family: Helvetica, sans-serif;
+    z-index: 1;
+}
+
+.bigdot {
+    font-weight: bold;
+    color: black;
+    width: 24px;
+    height: 24px;
+
+    margin-left: 20px;
+    max-height: 100%;
+    max-width: 20px;
+
+}
